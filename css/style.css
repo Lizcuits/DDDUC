@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+#game {
+    width: 100%;
+    background-color: black;
+}
+
+@media only screen and (min-width: 830px) {
+    #game {
+        width: 830px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1070px) {
+    #game {
+        width: 1070px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+body.force_desktop #main {
+    width: 1070px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
